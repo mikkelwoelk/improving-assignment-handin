@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/6f6a2b9d07.js" crossorigin="anonymous"></script>
+    <title>Improving Store</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="topbar">
+        <div class="header-logo">
+          <a href="#"><img src="./img/improving-logo.png" alt="Improving Logo" /></a>
+        </div>
+        <div class="header-src">
+          <input type="search" name="search" id="src-input" placeholder="Indtast søgeord" />
+          <img src="./img/search-icon.svg" alt="" />
+        </div>
+        <div class="header-basket">
+          <span class="basket-price">599,00 dkk</span>
+          <img class="header-basket-img" src="./img/header-basket.png" alt="" />
+          <span class="basket-amount"><p>1</p></span>
+          <div class="basket-dropdown">
+            <div class="basket-checkout">
+              <div class="checkout-info">
+                <div class="product-amount">
+                  <p><span>1</span> varer</p>
+                </div>
+                <div class="checkout-total">
+                  <p>kurv total: <br /><span>599,00 dkk</span></p>
+                </div>
+              </div>
+              <div class="checkout-button-container">
+                <button>gå til checkout</button>
+              </div>
+            </div>
+            <div class="checkout-items">
+              <img src="./img/shirt-2.png" alt="" />
+              <div class="checkout-item-info-container">
+                <div class="checkoutinfo-container">
+                  <span class="checkout-item-info"
+                    >bruun & stengade <br />
+                    nicky - skjorter</span
+                  >
+                  <span class="checkout-item-price">599,00 dkk</span>
+                </div>
+                <div class="item-amount-container">
+                  <span class="checkout-item-amount">Antal 1</span>
+                </div>
+              </div>
+            </div>
+            <div class="edit-basket">
+              <a href="">Se eller rediger din kurv</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-menu-container">
+        <nav class="header-nav">
+          <ul>
+            <li class="header-nav-item">
+              <a href="#">women</a>
+              <div class="dropdown">
+                <a class="dropdown-item" href=""
+                  >sunglasses
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >shirts & tops
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >designer tops
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >blouses
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >socks & tights
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >going out
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+            </li>
+            <li class="header-nav-item">
+              <a href="#">men</a>
+              <div class="dropdown">
+                <a class="dropdown-item" href=""
+                  >sunglasses
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >shirts & tops
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >designer tops
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >blouses
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >socks & tights
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >going out
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+            </li>
+            <li class="header-nav-item">
+              <a href="#">junior</a>
+              <div class="dropdown">
+                <a class="dropdown-item" href=""
+                  >sunglasses
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >shirts & tops
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >designer tops
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >blouses
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >socks & tights
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                <a class="dropdown-item" href=""
+                  >going out
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+            </li>
+            <li class="header-nav-item"><a href="#">accessories</a></li>
+            <li class="header-nav-item"><a href="#">collections</a></li>
+          </ul>
+        </nav>
+        <div class="menu-btn">
+          <div class="menu-btn-burger"></div>
+        </div>
+        <nav class="mobile-nav">
+          <div class="mobile-nav-header-container">
+            <h2 class="mobile-nav-header">menu</h2>
+            <img class="mobile-nav-close-btn" src="./img/menu-close-btn.svg" alt="menu close button" />
+          </div>
+          <div class="mobile-dropdown">
+            <a class="dropdown-item" href=""
+              >sunglasses
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a class="dropdown-item" href=""
+              >shirts & tops
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a class="dropdown-item" href=""
+              >designer tops
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a class="dropdown-item" href=""
+              >blouses
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a class="dropdown-item" href=""
+              >socks & tights
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+            <a class="dropdown-item" href=""
+              >going out
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+        </nav>
+        <div class="mobile-src-container">
+          <img src="./img/search-icon-white.svg" alt="" />
+        </div>
+        <div class="mobile-basket header-basket">
+          <img src="./img/header-basket-white.svg" alt="" />
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="basket-dropdown-mobile">
+        <div class="basket-checkout">
+          <div class="checkout-info">
+            <div class="product-amount">
+              <p><span>1</span> varer</p>
+            </div>
+            <div class="checkout-total">
+              <p>kurv total: <br /><span>1.300,00 dkk</span></p>
+            </div>
+          </div>
+          <div class="checkout-button-container">
+            <button>gå til checkout</button>
+          </div>
+        </div>
+        <div class="checkout-items">
+          <img src="./img/shirt-2.png" alt="" />
+          <div class="checkout-item-info-container">
+            <div class="checkoutinfo-container">
+              <span class="checkout-item-info"
+                >bruun & stengade <br />
+                nicky - skjorter</span
+              >
+              <span class="checkout-item-price">599,00 dkk</span>
+            </div>
+            <div class="item-amount-container">
+              <span class="checkout-item-amount">Antal 1</span>
+            </div>
+          </div>
+        </div>
+        <div class="edit-basket">
+          <a href="">Se eller rediger din kurv</a>
+        </div>
+      </div>
+      <section class="banner">
+        <div class="banner-container">
+          <h1 class="banner-header">
+            fashion <br />
+            collection
+          </h1>
+          <h2 class="banner-subheader">aw17</h2>
+          <a class="banner-button" href="#">view more</a>
+        </div>
+      </section>
+      <section class="product-showcase">
+        <div class="product-container">
+          <div class="product-inner">
+            <h3 class="product-header">our featured products</h3>
+            <div class="product-slider-controls">
+              <button class="slider-control is-prev js-slider-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button class="slider-control is-next js-slider-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="slider-container">
+            <div class="product-slider js-slider-scrollable">
+              <ul class="product-slider-container">
+                <li class="product-slider-item">
+                  <div class="product-item-inner">
+                    <div class="product-item-inner-img">
+                      <img src="./img/shirt-1.png" alt="" />
+                    </div>
+                    <div class="product-item-inner-info">
+                      <span class="product-item-inner-header"
+                        >bruun & stengade <br />
+                        nicky - skjorter</span
+                      >
+                      <span class="product-item-inner-price">599,00 dkk</span>
+                      <button class="product-item-inner-button">buy now</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-slider-item">
+                  <div class="product-item-inner">
+                    <div class="product-item-inner-img">
+                      <img src="./img/shirt-2.png" alt="" />
+                    </div>
+                    <div class="product-item-inner-info">
+                      <span class="product-item-inner-header"
+                        >bruun & stengade <br />
+                        nicky - skjorter</span
+                      >
+                      <span class="product-item-inner-price">599,00 dkk</span>
+                      <button class="product-item-inner-button">buy now</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-slider-item">
+                  <div class="product-item-inner">
+                    <div class="product-item-inner-img">
+                      <img src="./img/shirt-3.png" alt="" />
+                    </div>
+                    <div class="product-item-inner-info">
+                      <span class="product-item-inner-header"
+                        >bruun & stengade <br />
+                        nicky - skjorter</span
+                      >
+                      <span class="product-item-inner-price">599,00 dkk</span>
+                      <button class="product-item-inner-button">buy now</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-slider-item">
+                  <div class="product-item-inner">
+                    <div class="product-item-inner-img">
+                      <img src="./img/shirt-4.png" alt="" />
+                    </div>
+                    <div class="product-item-inner-info">
+                      <span class="product-item-inner-header"
+                        >bruun & stengade <br />
+                        nicky - skjorter</span
+                      >
+                      <span class="product-item-inner-price">599,00 dkk</span>
+                      <button class="product-item-inner-button">buy now</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-slider-item">
+                  <div class="product-item-inner">
+                    <div class="product-item-inner-img">
+                      <img src="./img/shirt-1.png" alt="" />
+                    </div>
+                    <div class="product-item-inner-info">
+                      <span class="product-item-inner-header"
+                        >bruun & stengade <br />
+                        nicky - skjorter</span
+                      >
+                      <span class="product-item-inner-price">599,00 dkk</span>
+                      <button class="product-item-inner-button">buy now</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-slider-item">
+                  <div class="product-item-inner">
+                    <div class="product-item-inner-img">
+                      <img src="./img/shirt-2.png" alt="" />
+                    </div>
+                    <div class="product-item-inner-info">
+                      <span class="product-item-inner-header"
+                        >bruun & stengade <br />
+                        nicky - skjorter</span
+                      >
+                      <span class="product-item-inner-price">599,00 dkk</span>
+                      <button class="product-item-inner-button">buy now</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-slider-item">
+                  <div class="product-item-inner">
+                    <div class="product-item-inner-img">
+                      <img src="./img/shirt-3.png" alt="" />
+                    </div>
+                    <div class="product-item-inner-info">
+                      <span class="product-item-inner-header"
+                        >bruun & stengade <br />
+                        nicky - skjorter</span
+                      >
+                      <span class="product-item-inner-price">599,00 dkk</span>
+                      <button class="product-item-inner-button">buy now</button>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-slider-item">
+                  <div class="product-item-inner">
+                    <div class="product-item-inner-img">
+                      <img src="./img/shirt-4.png" alt="" />
+                    </div>
+                    <div class="product-item-inner-info">
+                      <span class="product-item-inner-header"
+                        >bruun & stengade <br />
+                        nicky - skjorter</span
+                      >
+                      <span class="product-item-inner-price">599,00 dkk</span>
+                      <button class="product-item-inner-button">buy now</button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-inner">
+            <h4 class="footer-inner-header">LIPSUMRESOMEN</h4>
+            <p class="footer-inner-info">
+              Cras a enim accumsan ante pulvinar porttitor. Aliquam pharetra fringilla magna vel condimentum. Mauris rhoncus elit rhoncus sodales
+              luctus. Vestibulum orci urna, malesuada eget nunc faucibus, ultrices pharetra arcu. Suspendisse vulputate libero non sapien tempus
+              rutrum. Nulla lacus velit, convallis quis augue sed, pulvinar faucibus dolor.
+            </p>
+          </div>
+          <div class="footer-inner">
+            <h4 class="footer-inner-header">LOSMEN</h4>
+            <ul class="footer-inner-list">
+              <li class="footer-inner-list-item"><a href="#">Losmensem</a></li>
+              <li class="footer-inner-list-item"><a href="#">Lamsenm elsmawn</a></li>
+              <li class="footer-inner-list-item"><a href="#">Olemsen damens</a></li>
+              <li class="footer-inner-list-item"><a href="#">Maensen</a></li>
+              <li class="footer-inner-list-item"><a href="#">Posmense</a></li>
+            </ul>
+          </div>
+          <div class="footer-inner">
+            <h4 class="footer-inner-header">OLSMANES</h4>
+            <ul class="footer-inner-list">
+              <li class="footer-inner-list-item"><a href="#">Mode</a></li>
+              <li class="footer-inner-list-item"><a href="#">Interiør</a></li>
+              <li class="footer-inner-list-item"><a href="#">Fødevarer</a></li>
+              <li class="footer-inner-list-item"><a href="#">Konferencer</a></li>
+            </ul>
+          </div>
+          <div class="footer-inner">
+            <h4 class="footer-inner-header">KONTAKT</h4>
+            <ul class="footer-inner-list">
+              <li class="footer-inner-list-item"><a href="#">Nyhedsbrev</a></li>
+              <li class="footer-inner-list-item"><a href="#">Handelsbetingelser</a></li>
+              <li class="footer-inner-list-item"><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+          <div class="footer-inner some">
+            <ul class="footer-inner-list">
+              <li class="footer-inner-list-item">
+                <a href="#"><img src="./img/fb-icon.png" alt="" /></a>
+              </li>
+              <li class="footer-inner-list-item">
+                <a href="#"><img src="./img/insta-icon.png" alt="" /></a>
+              </li>
+              <li class="footer-inner-list-item">
+                <a href="#"><img src="./img/linkedin-icon.png" alt="" /></a>
+              </li>
+              <li class="footer-inner-list-item">
+                <a href="#"><img src="./img/twitter-icon.png" alt="" /></a>
+              </li>
+              <li class="footer-inner-list-item">
+                <a href="#"><img src="./img/pinterest-icon.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
